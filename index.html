@@ -4,14 +4,206 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <title>Kallyas-Home</title>
+  <link rel="stylesheet" href="./index.css">
+  <title>RDR2</title>
 </head>
 <body>
   <div class="container">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="intro" id="home">
+      <img id="bg_img" alt="bg-img" src="./images/bg.png" >
+      <div class="header">
+        <div class="logo">
+          <img src="./images/logo.png" alt="logo" id="logo">
+        </div>
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#qualities">Qualities</a>
+          <a href="#characters">Characters</a>
+          <a href="#guide">Guide</a>
+          <a href="#about_us">About us</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="disc">
+        <h1 id="title">Red Dead Redemption 2</h1>
+        <p id="description">
+          Red Dead Redemption 2 is an action-adventure game set in the American Old West in the late 1800s.
+          Players control Arthur Morgan, a member of the Van der Linde gang, and engage in shootouts, heists, and other activities in an open-world environment.
+          The game is highly acclaimed for its story, characters, and visuals and is available on multiple platforms.
+        </p>
+        <button type="button" class="buttons">Play Now</button>
+        <button type="button" class="buttons">Register</button>
+      </div>
+    </div>
+
+    <div class="cards_container" id="qualities" >
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img" src="./images/c1.jpg" alt="Card image cap">
+          <h5 class="card-title">Classic</h5>
+          <p class="card-text">
+            Red Dead Redemption is a gripping tale of the Wild West, replete with sharp-shooting outlaws,
+            dust-ridden plains, and the alluring allure of gold
+          </p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img" src="./images/c2.jpg" alt="Card image cap">
+          <h5 class="card-title">Stunning</h5>
+          <p class="card-text">
+            Red Dead Redemption 2 is a visual masterpiece, showcasing some of the most stunning
+            graphics ever seen in a video game
+          </p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img" src="./images/c3.jpg" alt="Card image cap">
+          <h5 class="card-title">GOTY</h5>
+          <p class="card-text">
+            Red Dead Redemption 2 is a game that truly deserves the title of Game of the Year.
+            With its immersive world-building, complex characters, and engaging gameplay
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="charcters_info" id="characters">
+      <div class="character_intro">
+        <h4>Characters</h4>
+        <h1>Characters of Red Dead Redemption 2</h1>
+        <p>It features a wide range of characters, each with their own unique personalities, backgrounds, and storylines.</p>
+      </div>
+      <div class="card_container">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img class="card-img" src="./images/cc1.png" alt="Card image cap">
+            <h5 class="card-title">Arthur Morgan</h5>
+            <p class="card-text">
+              Arthur Morgan is the main protagonist of Red Dead Redemption 2, and is a member of the Van der Linde gang.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img class="card-img" src="./images/cc3.png" alt="Card image cap">
+            <h5 class="card-title">John Marston</h5>
+            <p class="card-text">
+              John Marston is one of the main characters in Red Dead Redemption 2 and is a former member of the Van der Linde gang.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img class="card-img" src="./images/cc2.png" alt="Card image cap">
+            <h5 class="card-title">Dutch</h5>
+            <p class="card-text">
+              Dutch van der Linde is the charismatic and enigmatic leader of the Van der Linde gang, which is the central focus of RDR2.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="guide" class="guide_container">
+      <div class="guide1_container">
+        <div id="guide_info">
+          <h1>Guide of Red Dead Redemption 2</h1>
+          <p>Red Dead Redemption 2 is a massive open-world game with a lot of content to explore. Here is a basic guide to get you started:</p>
+        </div>
+        <div id="guide_img">
+          <img src="./images/g_img.jpg" alt="guide_img">
+        </div>
+      </div>
+
+      <div class="guide2_container">
+        <div class="guide_disc1">
+          <h2>1- Follow the main story</h2>
+          <p>The game's main story follows the adventures of the Van der Linde gang, and it's a good idea to start there.</p>
+        </div>
+        <div class="guide_disc2">
+          <h2>2- Explore the world</h2>
+          <p>The game's world is massive and filled with interesting places to visit and characters to interact with.</p>
+        </div>
+        <div class="guide_disc3">
+          <h2>Interact with NPCs</h2>
+          <p>
+            The game's non-playable characters (NPCs) have their own schedules and routines, and can be interacted with in a variety of ways. 
+            Try greeting them, antagonizing them, or robbing them to see how they react.
+          </p>
+        </div>
+      </div>
+
+      <div class="guide_collage_container">
+        <img id="guide_collage" src="./images/gc_img.png" alt="guide_collage">
+      </div>
+    </div>
+
+    <div id="about_us">
+      <img id="about_img" src="./images/abus_img.jpg" alt="about_us_img">
+      <div class="about_us_info">
+        <h1>Beautifully handcrafted designs for your website</h1>
+        <p>
+          Enim ut tellus elementum sagittis vitae et leo duis. 
+          Feugiat sed lectus vestibulum mattis ullamcorper. Aenean et tortor at risus viverra adipiscing at. 
+          Neque aliquam vestibulum morbi blandit cursus risus at.
+        </p>
+      </div>
+      <div class="about_us_grid card_container">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="./images/icon1.png" alt="icon1">
+            <h5 class="card-title">Secured Database</h5>
+            <p class="card-text">
+              Ullamcorper dignissim cras tincidunt vet lobortis feugiat vivamus. Sed euismod nisi porta lorem.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="./images/icon2.png" alt="icon2">
+            <h5 class="card-title">Modern Framework</h5>
+            <p class="card-text">
+              Pharetra massa massa ultricies mi quis hendrerit. Interdum consectetur libero nisl tincidunt ege
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="contact_info">
+        <h1>Join Red Dead Redemption 2 Community</h1>
+        <p>Gather up and be part of vast community of Red Dead Redemption 2 where we will solve your questions and answer the plot-holes in the game.</p>
+      </div>
+
+      <div class="contact_form">
+        <form>
+          <div class="form-group">
+            <label for="ControlInput1">Name</label>
+            <input type="text" class="form-control" id="ControlInput1" placeholder="Huzaifa Atique">
+            <label for="ControlInput1">Email address</label>
+            <input type="email" class="form-control" id="ControlInput1" placeholder="ronaldobesthy@gmail.com">
+          </div>
+          <div class="form-group">
+            <label for="ControlTextarea1">Gaming Skills</label>
+            <textarea class="form-control" id="ControlTextarea1" rows="3" placeholder="How do you fare...."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
