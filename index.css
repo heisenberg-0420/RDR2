@@ -1,21 +1,30 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+  color: #fff;
+  background: #000;
 }
 
 .container {
   margin: 0%;
   padding: 0%;
   max-width: none;
+  overflow: hidden;
 }
 
 #home{
-  background-image: url(./images/bg.png);
+  background-image: url("./images/bg.png");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  position: relative;
 }
 
 /* Header */
@@ -86,7 +95,7 @@ body {
   padding-bottom: 50px;
 }
 
-#title {
+.title {
   font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
@@ -94,7 +103,7 @@ body {
   margin-bottom: 20px;
 }
 
-#description {
+.description {
   font-size: 20px;
   margin-bottom: 30px;
 }
@@ -133,18 +142,8 @@ body {
   width: 26em;
   background-size: cover;
   background-position: center;
-}
-
-.char1 {
-  background-image: url(./images/c1.jpg);
-}
-
-.char2 {
-  background-image: url(./images/c2.jpg);
-}
-
-.char3 {
-  background-image: url(./images/c3.jpg);
+  background-color: #d11e1e;
+  border: #d11e1e 1px solid;
 }
 
 .card-body {
@@ -166,4 +165,127 @@ body {
 
 .card-text {
   height: 80px;
+}
+
+.char1 {
+  background-image: url(./images/c1.jpg);
+}
+
+.char2 {
+  background-image: url(./images/c2.jpg);
+}
+
+.char3 {
+  background-image: url(./images/c3.jpg);
+}
+
+.char_intro {
+  text-align: center;
+  margin: 10rem 0;
+}
+
+.char_intro h4 {
+  color: #d11e1e;
+}
+
+.char_card {
+  background-color: #000;
+  border: none;
+  align-items: center;
+}
+
+.char_card .card-img {
+  width: 12rem;
+  height: 15rem;
+}
+
+.char_card .card-body {
+  padding-left: 40px;
+}
+
+.guide_container {
+  margin: 150px 0;
+}
+
+#guide_info {
+  align-self: center;
+  text-align: center;
+  margin-left: 12rem;
+}
+
+#guide_img img {
+  width: 22rem;
+  height: 30rem;
+  margin-left: 3rem;
+}
+
+.guide2 {
+  margin: 100px 0;
+  padding: 0 12rem;
+}
+
+.guide_disc3 h2 {
+  font-size: 33px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.guide_disc3 p {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+#guide_collage {
+  width: 100%;
+  height: 740px;
+}
+
+#about_us {
+  background-image: url(./images/abus_img.jpg);
+  background-size: cover;
+  min-height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about_us_info, .about_us_grid {
+  width: 40%;
+  padding-right: 2rem;
+  margin-left: 5rem;
+}
+
+.about_us_grid {
+  margin-top: 30px;
+}
+
+.icon {
+  align-self: center;
+  height: 70px;
+  width: 70px;
+}
+
+.icon_card {
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  height: 15em;
+  width: 5em;
+  border: none;
+}
+
+.icon_card-title {
+  align-self: center;
+  font-size: 20px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.contact{
+  margin: 70px 1rem 3rem 1rem;
 }
