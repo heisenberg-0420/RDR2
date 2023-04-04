@@ -289,3 +289,19 @@ body {
 .contact{
   margin: 70px 1rem 3rem 1rem;
 }
+
+@media (max-width: 412px) {
+ .card_container {
+  flex-direction: column;
+ }
+
+ .card {
+  height: 12em;
+  width: 13em;
+  }
+  
+  .card-title {
+    font-size: 15px;
+    font-weight: 250px;
+  }
+}
